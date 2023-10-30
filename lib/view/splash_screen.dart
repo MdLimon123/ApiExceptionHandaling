@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:mvvm_pattern/data/app_exceptions.dart';
+import 'package:get/get.dart';
+
+
+
 
 class SplashScreen extends StatefulWidget {
 
@@ -12,8 +15,13 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-     
+    return
+
+      Scaffold(
+     backgroundColor: Colors.teal,
+        body: Center(
+          child: Text('welcome'.tr, textAlign: TextAlign.center,),
+        ),
     );
   }
 }
