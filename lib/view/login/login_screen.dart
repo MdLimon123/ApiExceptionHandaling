@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:mvvm_pattern/res/colors/app_color.dart';
 import 'package:mvvm_pattern/res/components/round_button.dart';
 import 'package:mvvm_pattern/utils/utils.dart';
-import 'package:mvvm_pattern/view_models/controller/login_view_model.dart';
+import 'package:mvvm_pattern/view_models/controller/login/LoginViewModelController.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
